@@ -51,7 +51,10 @@ a {
 
 .links .current,
 .links a:hover,
-.links a:focus {
+.links a:focus,
+.footer-address:hover,
+.footer-contacts:hover,
+.footer-contacts:focus {
     color: var(--accent-color);
 }
 
