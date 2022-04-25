@@ -146,9 +146,11 @@ a {
 .footer-address {
     color: #ffffff;
 }
+
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 }
+
 /* так вказано в макеті ))  */
 .works {
     background-color: var(--background-features);
@@ -168,6 +170,7 @@ a {
     color: #ffffff;
     background-color: var(--accent-color);
 }
+
 .footer-address, 
 .footer-contacts {
     font-style: normal;
