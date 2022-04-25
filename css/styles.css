@@ -17,6 +17,7 @@ body {
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 ul {
@@ -95,7 +96,6 @@ a {
 }
 
 .features .heading3 {
-    color: var(--headings-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -110,6 +110,7 @@ a {
     letter-spacing: 0.03em;   
 }
 
+.features .heading2,
 .business .heading2,
 .team .heading2 {
     font-weight: 700;
@@ -151,7 +152,6 @@ a {
 }
 
 .works-filter button {
-    color: var(--headings-color);
     background-color: var(--background-team);
     font-weight: 500;
     font-size: 16px;
@@ -185,9 +185,3 @@ a {
     font-size: 16px;
     line-height: 1.88;
 }
-
-
-
-
-
-
