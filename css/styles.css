@@ -1,0 +1,193 @@
+/* accent-color background: #2196F3; */
+
+:root {
+ --accent-color: #2196F3;
+ --headings-color: #212121;
+ --text-color: #757575;
+ --lightwhite-color: #FFFFFF99;
+ --background-hero: #2F303A;
+ --background-features: #E5E5E5;
+ --background-team: #F5F4FA;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-menu a {
+    color: var(--headings-color);
+}
+
+.nav-contacts a {
+    color: var(--text-color);
+}
+
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+    color: var(--accent-color);
+}
+
+.links .current,
+.links a:hover,
+.links a:focus {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--background-hero);
+    text-align: center;
+}
+
+.hero-heading {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.features,
+.business {
+    background-color: var(--background-features);
+}
+
+.features .heading3 {
+    color: var(--headings-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+.team .heading3  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;   
+}
+
+.business .heading2,
+.team .heading2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: var(--background-team);
+}
+
+.footer {
+    color: #ffffff;
+    background-color: var(--background-hero);
+}
+
+.footer > a {
+    color: #ffffff;
+}
+
+.footer-address {
+    color: #ffffff;
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* так вказано в макеті ))  */
+.works {
+    background-color: var(--background-features);
+}
+
+.works-filter button {
+    color: var(--headings-color);
+    background-color: var(--background-team);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.works-filter button:hover,
+.works-filter button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+.footer-address, 
+.footer-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.works-list .heading2 {
+    color: var(--headings-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works-list .text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+
+
+
+
